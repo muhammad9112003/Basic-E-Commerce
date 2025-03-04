@@ -1,0 +1,14 @@
+
+.shop {
+    background-color: #feb500;
+}
+.tohome {
+    bottom: 5px;
+    right: 10px;
+    background-color: #a87902;
+    font-size: 20px;
+}
+.tohome:hover {
+    background-color: #bc8a0c;
+    color: black;
+}

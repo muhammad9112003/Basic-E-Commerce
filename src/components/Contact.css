@@ -1,0 +1,86 @@
+.contact {
+    background-color: #feb500;
+    letter-spacing: 3px;
+}
+.form {
+    background-color: black;
+    color: #feb500 ;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 18px 40px, rgba(0, 0, 0, 0.23) 0px 16px 16px !important;
+    width: 50%;
+    transform: skew(0deg, -22deg);
+    transition-duration: 0.4s;
+    height: fit-content;
+}
+.form:focus ,
+.form:hover
+ {
+    transform: skew(0deg, 0deg);
+}
+@media (max-width:767px) {
+    .form {
+    width: 100%;
+}
+}
+hr {
+    width: 50%;
+    border: 2px solid #e8000c;
+}
+input {
+    background-color: black !important;
+    border: none !important ;
+    height: 70px;
+    width: 80% !important;
+    margin: auto;
+    letter-spacing: 2px;
+    color: #ff0e1a !important;
+    font-size: 24px !important;
+    cursor: pointer;
+}
+input:focus {
+    border: 1px solid #feb500 !important
+}
+.form:focus-within {
+    transform: skew(0deg, 0deg);
+}
+input[type=number] {
+    appearance: none;  
+    -webkit-appearance: none; 
+    -moz-appearance: textfield; 
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input::placeholder,
+textarea::placeholder {
+    font-size: 20px;
+    font-weight: 100 !important;
+    color: #ff0e1a !important;
+    text-align: center;
+}
+@media (max-width:767px) {
+input::placeholder,
+textarea::placeholder {
+    font-size: 10px;
+    font-weight: 50 !important;
+}
+}
+textarea {
+    background-color: black !important;
+    color: #e8000c;
+    border: 1px solid #feb500 !important ;
+    color: #ff0e1a !important;
+    font-size: 20px !important;
+}
+@media (max-width:767px) {
+    .form button {
+        font-size: 20px !important;
+        width: 50% !important;
+}
+}
+
+
+
+
+

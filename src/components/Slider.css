@@ -1,0 +1,22 @@
+.head {
+    letter-spacing: 3px;
+    font-size: 60px;
+    opacity: 0.6;
+
+}
+@media (max-width:767px) {
+    .head {
+        font-size: 24px;
+    }
+}
+.main {
+    width: 90%;
+}
+.carousel-inner {
+    max-height: 500px;
+}
+@media (max-width:767px) {
+.carousel-inner {
+    max-height: 180px;
+}
+}

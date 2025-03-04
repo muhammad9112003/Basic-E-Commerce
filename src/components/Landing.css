@@ -1,0 +1,39 @@
+.landing {
+    width: 100%;
+    background-color: #feb500;
+    height: 100vh;
+}
+.text h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+@media (max-width:767px) {
+    .text h1 {
+    font-size: 30px;
+}
+}
+.text .btn {
+    background-color: #bf0c16;
+    transition: 0.4s;
+}
+@media (max-width:767px) {
+.text .btn {
+font-size: 10px !important;
+font-weight: 100 !important;
+}
+}
+.text .btn:hover {
+    background-color: black;
+    color: #feb500;
+}
+@media (max-width:767px) {
+.text p {
+    font-size: 16px !important;
+}
+}
+@media (max-width:767px) {
+.text button {
+    width: 50% !important;
+}
+}
