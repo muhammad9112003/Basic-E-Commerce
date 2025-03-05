@@ -1,11 +1,12 @@
+import { Link } from "react-router";
 import logo from "../images/Logo1.avif";
 import "./Nav.css";
 function Nav() {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100  fixed-top z-3">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src={logo} className=" w-25 rounded-circle " />
+        <a class="navbar-brand" href="#home">
+          <img src={logo} className=" w-25 rounded-circle " alt="" />
         </a>
         <button
           class="navbar-toggler border-0 shadow-none "
@@ -21,13 +22,13 @@ function Nav() {
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center  links">
             <li class="nav-item ">
-              <a
+              <Link
                 class="nav-link  mx-3 fw-bolder active"
                 aria-current="page"
-                href="#"
+                href="/"
               >
                 | Home
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-3 " aria-current="page" href="#products">

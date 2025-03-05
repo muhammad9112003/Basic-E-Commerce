@@ -1,7 +1,6 @@
 import { Link } from "react-router";
 import "./Shop.css";
 import Products from "./Products";
-import ProductDetails from "./ProductDetails";
 function Shop() {
   return (
     <>

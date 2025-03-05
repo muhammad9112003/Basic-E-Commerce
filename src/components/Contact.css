@@ -7,15 +7,9 @@
     color: #feb500 ;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 18px 40px, rgba(0, 0, 0, 0.23) 0px 16px 16px !important;
     width: 50%;
-    transform: skew(0deg, -22deg);
-    transition-duration: 0.4s;
     height: fit-content;
 }
-.form:focus ,
-.form:hover
- {
-    transform: skew(0deg, 0deg);
-}
+
 @media (max-width:767px) {
     .form {
     width: 100%;
@@ -39,9 +33,7 @@ input {
 input:focus {
     border: 1px solid #feb500 !important
 }
-.form:focus-within {
-    transform: skew(0deg, 0deg);
-}
+
 input[type=number] {
     appearance: none;  
     -webkit-appearance: none; 

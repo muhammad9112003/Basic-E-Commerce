@@ -18,7 +18,7 @@ function About() {
           about us{" "}
         </h1>
         <div className="content container mt-5 mb-5 d-flex justify-content-between align-items-center flex-lg-row flex-column">
-          <img src={about} className=" w-75 rounded-5 mx-3 " />
+          <img src={about} className=" w-75 rounded-5 mx-3 " alt="" />
           <span className="icon-about"></span>
           <div className="text-about text-center  w-100 fs-5 mx-3 mt-2 mb-0">
             Welcome to our e-commerce platform, where convenience, quality, and
